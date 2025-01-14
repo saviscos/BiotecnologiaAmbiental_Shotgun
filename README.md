@@ -173,3 +173,6 @@ Exemplos incluem antibióticos, alcaloides, terpenos e flavonoides.
 
 ---
 
+```bash
+conda activate antismash
+```
