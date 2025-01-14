@@ -1,4 +1,4 @@
-Aqui está o pipeline formatado em Markdown para ser usado no GitHub:
+Aqui está o pipeline ajustado com um link para o tutorial de instalação difícil:
 
 ```markdown
 # Pipeline de Análise de Dados
@@ -9,43 +9,16 @@ Este repositório contém instruções para instalação e execução de ferrame
 
 ## 🛠️ Instalação
 
-### Método Difícil (Compilação Manual)
-
-```bash
-# Criar diretório para armazenar softwares
-mkdir software
-cd software
-
-# Instalar o sickle
-git clone https://github.com/ucdavis-bioinformatics/sickle.git
-cd sickle
-make
-./sickle
-
-# Adicionar o caminho ao PATH
-echo $PATH
-pwd  # Exibir o caminho completo
-export PATH=$PATH:<inserir_o_caminho_do_pwd>
-cd ..
-
-# Instalar o scythe
-git clone https://github.com/ucdavis-bioinformatics/scythe.git
-cd scythe
-make
-./scythe
-
-# Adicionar o caminho ao PATH
-echo $PATH
-pwd
-export PATH=$PATH:<inserir_o_caminho_do_pwd>
-```
-
 ### Método Fácil (via apt)
 
 ```bash
 sudo apt install sickle
 sudo apt install scythe
 ```
+
+### Método Difícil (Compilação Manual)
+
+Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [tutorial de instalação difícil](#tutorial-dificil).
 
 ---
 
@@ -109,7 +82,38 @@ megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.
 
 ---
 
-Se houver dúvidas ou melhorias, abra uma **issue** ou contribua com um **pull request**! 🚀
+## 🔗 Tutorial de Instalação Difícil
+
+```bash
+# Criar diretório para armazenar softwares
+mkdir software
+cd software
+
+# Instalar o sickle
+git clone https://github.com/ucdavis-bioinformatics/sickle.git
+cd sickle
+make
+./sickle
+
+# Adicionar o caminho ao PATH
+echo $PATH
+pwd  # Exibir o caminho completo
+export PATH=$PATH:<inserir_o_caminho_do_pwd>
+cd ..
+
+# Instalar o scythe
+git clone https://github.com/ucdavis-bioinformatics/scythe.git
+cd scythe
+make
+./scythe
+
+# Adicionar o caminho ao PATH
+echo $PATH
+pwd
+export PATH=$PATH:<inserir_o_caminho_do_pwd>
 ```
 
-Este arquivo fornece uma apresentação clara e organizada com seções de instalação, processamento de dados e links relevantes, seguindo o estilo apropriado para GitHub.
+---
+
+Se houver dúvidas ou melhorias, abra uma **issue** ou contribua com um **pull request**! 🚀
+```
