@@ -39,17 +39,20 @@ Caso deseje seguir o processo de instalação manual das ferramentas, consulte o
 ## 📁 Tratamento de Dados
 
 ### 1. Baixar Sequências
-```
+
+# Comandos para baixar os arquivos de sequência
 
 ```bash
-# Comandos para baixar os arquivos de sequência
 curl -O -J -L https://osf.io/shqpv/download
 curl -O -J -L https://osf.io/9m3ch/download
-
+```
 # Verificar os arquivos baixados
+
+```bash
 ls -l
 fastqc SRR957824_500K_R1.fastq.gz SRR957824_500K_R2.fastq.gz
 ```
+
 Sequenciadores:
 
 ## Tipos de Sequenciadores: Illumina vs Nanopore
