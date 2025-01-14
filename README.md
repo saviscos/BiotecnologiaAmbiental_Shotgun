@@ -18,7 +18,7 @@ sudo apt install scythe
 
 ### Método Difícil (Compilação Manual)
 
-Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [tutorial de instalação difícil](#tutorial-dificil).
+Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [tnstalação difícil](#instalação-difícil).
 
 ---
 
@@ -82,7 +82,7 @@ megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.
 
 ---
 
-## 🔗 Tutorial de Instalação Difícil
+## 🔗 Instalação Difícil
 
 ```bash
 # Criar diretório para armazenar softwares
