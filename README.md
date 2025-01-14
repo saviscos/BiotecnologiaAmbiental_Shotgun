@@ -50,7 +50,7 @@ Qualidade Phred:
 
 Tipos de leituras:
 
-![Sequenciamento](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/images.png)
+![Sequenciamento](https://www.google.com/url?sa=i&url=https%3A%2F%2Fuclouvain-cbio.github.io%2FWSBIM2122%2Fsec-hts.html&psig=AOvVaw202bJSiL55na97gaSADWKM&ust=1736950211599000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJifora09YoDFQAAAAAdAAAAABAS)
 
 📊 **Resultados:**
 - [Relatório FastQC R1](https://www.hadriengourle.com/tutorials/data/fastqc/SRR957824_500K_R1_fastqc.html)
