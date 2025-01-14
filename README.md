@@ -83,7 +83,7 @@ megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.
 
 ---
 
-## 🔗 Instalação Difícil
+## 🔗 Instalacao Dificil
 
 ```bash
 # Criar diretório para armazenar softwares
