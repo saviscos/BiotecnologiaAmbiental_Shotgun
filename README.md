@@ -6,6 +6,12 @@ Bem como o processamento de dados de sequenciamento.
 ---
 
 
+Tipos de leituras:
+
+![Metagenoma](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/Screenshot%202025-01-14%20at%2011-26-50%20Metagenomics%20Principle%20Types%20Steps%20Uses%20Examples%20Diagram.png)
+
+
+
 ## 🛠️ Instalação
 
 ### Método Fácil (via apt)
@@ -39,6 +45,10 @@ curl -O -J -L https://osf.io/9m3ch/download
 ls -l
 fastqc SRR957824_500K_R1.fastq.gz SRR957824_500K_R2.fastq.gz
 ```
+Sequenciadores:
+
+![Sequenciadores](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/3rd-gen-sequencing.png)
+
 
 Exemplo de arquivo FASTq
 
@@ -50,7 +60,9 @@ Qualidade Phred:
 
 Tipos de leituras:
 
-![Sequenciamento](https://www.google.com/url?sa=i&url=https%3A%2F%2Fuclouvain-cbio.github.io%2FWSBIM2122%2Fsec-hts.html&psig=AOvVaw202bJSiL55na97gaSADWKM&ust=1736950211599000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJifora09YoDFQAAAAAdAAAAABAS)
+![Sequenciamento](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/SE_vs_PE.png)
+
+
 
 📊 **Resultados:**
 - [Relatório FastQC R1](https://www.hadriengourle.com/tutorials/data/fastqc/SRR957824_500K_R1_fastqc.html)
@@ -85,6 +97,12 @@ sickle pe -f SRR957824_adapt_R1.fastq -r SRR957824_adapt_R2.fastq \
 ---
 
 ## 🧬 Montagem
+
+Tipos de leituras:
+
+![Montagem](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/hq720.jpg)
+
+
 
 ```bash
 megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.fasta
