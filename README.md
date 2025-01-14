@@ -7,7 +7,8 @@ Bem como o processamento de dados de sequenciamento.
 
 ---
 
-[Exemplo de FASTQ](https://www.drive5.com/usearch/manual/fastq_fig.jpg)
+![Exemplo de FASTQ](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/fastq_fig.jpg)
+
 
 
 ## 🛠️ Instalação
