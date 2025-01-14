@@ -18,7 +18,8 @@ sudo apt install scythe
 
 ### Método Difícil (Compilação Manual)
 
-Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [tnstalação difícil](#instalação-difícil).
+Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [Instalação Difícil](#instalacao-dificil).
+
 
 ---
 
