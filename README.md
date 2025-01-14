@@ -18,7 +18,8 @@ sudo apt install scythe
 
 ### Método Difícil (Compilação Manual)
 
-Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [Instalação Difícil](#instalacao-dificil).
+Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [Tutorial de Instalação Difícil](instalacao_dificil.md).
+
 
 
 ---
@@ -83,38 +84,3 @@ megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.
 
 ---
 
-## 🔗 Instalacao Dificil
-
-```bash
-# Criar diretório para armazenar softwares
-mkdir software
-cd software
-
-# Instalar o sickle
-git clone https://github.com/ucdavis-bioinformatics/sickle.git
-cd sickle
-make
-./sickle
-
-# Adicionar o caminho ao PATH
-echo $PATH
-pwd  # Exibir o caminho completo
-export PATH=$PATH:<inserir_o_caminho_do_pwd>
-cd ..
-
-# Instalar o scythe
-git clone https://github.com/ucdavis-bioinformatics/scythe.git
-cd scythe
-make
-./scythe
-
-# Adicionar o caminho ao PATH
-echo $PATH
-pwd
-export PATH=$PATH:<inserir_o_caminho_do_pwd>
-```
-
----
-
-Se houver dúvidas ou melhorias, abra uma **issue** ou contribua com um **pull request**! 🚀
-```
