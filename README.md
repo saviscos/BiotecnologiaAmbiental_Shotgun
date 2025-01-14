@@ -1,4 +1,4 @@
-# Pipeline de Análise de Dados
+# Aula - Biotecnologia ambiental - Analises de Metagenomas.
 
 Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**  
 Bem como o processamento de dados de sequenciamento.
@@ -53,8 +53,6 @@ ls -l
 fastqc SRR957824_500K_R1.fastq.gz SRR957824_500K_R2.fastq.gz
 ```
 
-Sequenciadores:
-
 ## Tipos de Sequenciadores: Illumina vs Nanopore
 
 ### Illumina (Sequenciamento de Segunda Geração)
@@ -84,17 +82,17 @@ Sequenciadores:
 | Aplicação       | RNA-seq, pequenos genomas | Genomas completos e variantes estruturais |
 
 
-Exemplo de arquivo FASTq:
+### Exemplo de arquivo FASTq:
 
 ![Exemplo de FASTQ](https://raw.githubusercontent.com/saviscos/BiotecnologiaAmbiental_Shotgun/main/fastq_fig.jpg)
 
-Qualidade Phred:
+### Qualidade Phred:
 
 Qualidade Phred é uma métrica usada para avaliar a precisão das bases chamadas durante o sequenciamento de DNA. Cada valor Phred (Q) representa a probabilidade de erro na identificação de uma base nucleotídica. A escala é logarítmica e quanto maior o valor, menor a chance de erro.
 
 ![Exemplo de Phred](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/phred_table.png)
 
-Tipos de Leituras: Single-End vs Paired-End
+### Tipos de Leituras: Single-End vs Paired-End
 
 - **Single-End (Leitura Única)**: O sequenciamento é realizado em apenas uma extremidade do fragmento de DNA, gerando uma única leitura contínua. Este método é mais rápido, simples e barato, mas pode ser menos preciso em regiões repetitivas ou complexas do genoma.
 
@@ -150,6 +148,8 @@ A montagem de novo é usada quando não existe um genoma conhecido semelhante, e
 
 
 ```bash
+conda install -c bioconda megahit
+
 megahit -1 SRR957824_trimmed_R1.fastq -2 SRR957824_trimmed_R2.fastq -o assemble.fasta
 ```
 
