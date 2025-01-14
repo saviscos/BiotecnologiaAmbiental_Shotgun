@@ -6,8 +6,6 @@ Bem como o processamento de dados de sequenciamento.
 ---
 
 
-Metagenoma:
-
 ## Metagenoma
 
 **Metagenoma** é o conjunto completo de material genético recuperado diretamente de amostras ambientais, sem a necessidade de cultivo dos micro-organismos presentes. A análise metagenômica permite estudar comunidades microbianas complexas, identificando tanto as espécies presentes quanto suas funções biológicas.
@@ -32,14 +30,11 @@ sudo apt install scythe
 ```
 
 
-```markdown
 ### Método Difícil (Compilação Manual)
 
 Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [Tutorial de Instalação Difícil](instalacao_dificil.md).
 
 
-
----
 
 ## 📁 Tratamento de Dados
 
@@ -84,9 +79,6 @@ Sequenciadores:
 | Custo por base  | Baixo                | Moderado           |
 | Tempo de leitura| Offline              | Tempo real         |
 | Aplicação       | RNA-seq, pequenos genomas | Genomas completos e variantes estruturais |
-
-
-![Sequenciadores](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/3rd-gen-sequencing.png)
 
 
 Exemplo de arquivo FASTq:
