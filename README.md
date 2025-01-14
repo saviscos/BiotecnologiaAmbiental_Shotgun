@@ -2,9 +2,13 @@
 
 # Pipeline de Análise de Dados
 
-Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**, bem como o processamento de dados de sequenciamento.
+Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**
+Bem como o processamento de dados de sequenciamento.
 
 ---
+
+![Exemplo de FASTQ](https://www.drive5.com/usearch/manual/fastq_fig.jpg)
+
 
 ## 🛠️ Instalação
 
