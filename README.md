@@ -3,7 +3,7 @@
 ```markdown
 # Pipeline de Análise de Dados
 
-Este repositório contém instruções para instalação e execução de ferramentas bioinformáticas como **sickle** e **scythe**, bem como o processamento de dados de sequenciamento.
+Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**, bem como o processamento de dados de sequenciamento.
 
 ---
 
