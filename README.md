@@ -5,7 +5,6 @@ Bem como o processamento de dados de sequenciamento.
 
 ---
 
-![Exemplo de FASTQ](https://raw.githubusercontent.com/saviscos/BiotecnologiaAmbiental_Shotgun/main/fastq_fig.jpg)
 
 ## 🛠️ Instalação
 
@@ -40,6 +39,18 @@ curl -O -J -L https://osf.io/9m3ch/download
 ls -l
 fastqc SRR957824_500K_R1.fastq.gz SRR957824_500K_R2.fastq.gz
 ```
+
+Exemplo de arquivo FASTq
+
+![Exemplo de FASTQ](https://raw.githubusercontent.com/saviscos/BiotecnologiaAmbiental_Shotgun/main/fastq_fig.jpg)
+
+Qualidade Phred:
+
+![Exemplo de Phred](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/phred_table.png)
+
+Tipos de leituras:
+
+![Sequenciamento](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/images.png)
 
 📊 **Resultados:**
 - [Relatório FastQC R1](https://www.hadriengourle.com/tutorials/data/fastqc/SRR957824_500K_R1_fastqc.html)
