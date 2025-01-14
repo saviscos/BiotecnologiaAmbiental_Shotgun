@@ -1,4 +1,4 @@
-Aqui está o pipeline ajustado com um link para o tutorial de instalação difícil:
+#Instalação DIficil
 
 ```markdown
 # Pipeline de Análise de Dados
