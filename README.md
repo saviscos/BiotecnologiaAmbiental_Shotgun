@@ -1,25 +1,22 @@
-```markdown
-
 # Pipeline de Análise de Dados
 
-Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**
+Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**  
 Bem como o processamento de dados de sequenciamento.
 
 ---
 
-[Exemplo de FASTQ](https://github.com/saviscos/BiotecnologiaAmbiental_Shotgun/blob/main/fastq_fig.jpg)
-
-
+![Exemplo de FASTQ](https://raw.githubusercontent.com/saviscos/BiotecnologiaAmbiental_Shotgun/main/fastq_fig.jpg)
 
 ## 🛠️ Instalação
 
 ### Método Fácil (via apt)
-```
 
 ```bash
 sudo apt install sickle
 sudo apt install scythe
 ```
+
+
 ```markdown
 ### Método Difícil (Compilação Manual)
 
