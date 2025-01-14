@@ -1,6 +1,5 @@
-#Instalação DIficil
-
 ```markdown
+
 # Pipeline de Análise de Dados
 
 Este repositório contém instruções para instalação e execução de ferramentas como **sickle** e **scythe**, bem como o processamento de dados de sequenciamento.
@@ -10,12 +9,13 @@ Este repositório contém instruções para instalação e execução de ferrame
 ## 🛠️ Instalação
 
 ### Método Fácil (via apt)
+```
 
 ```bash
 sudo apt install sickle
 sudo apt install scythe
 ```
-
+```markdown
 ### Método Difícil (Compilação Manual)
 
 Caso deseje seguir o processo de instalação manual das ferramentas, consulte o [Tutorial de Instalação Difícil](instalacao_dificil.md).
@@ -27,6 +27,7 @@ Caso deseje seguir o processo de instalação manual das ferramentas, consulte o
 ## 📁 Tratamento de Dados
 
 ### 1. Baixar Sequências
+```
 
 ```bash
 # Comandos para baixar os arquivos de sequência
